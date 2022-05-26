@@ -1,3 +1,3 @@
 #!/bin/bash
-apt install docker.io docker docker-compose
-docker-compose up -d
+sudo apt install docker.io docker docker-compose -y
+sudo docker-compose up -d
